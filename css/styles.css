@@ -1,0 +1,149 @@
+  body {
+   font-family: 'Khula', sans-serif;
+   text-align: center;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+   font-weight: bold;
+  }
+
+  /* Containers */
+  .container-fluid {
+    padding: 7% 15%;
+  }
+
+  /* Sections */
+  .colored-section {
+    background-color: #3C98F1;
+    color: white;
+  }
+
+  .white-section {
+
+  }
+
+  /* Headings */
+  .big-heading {
+   font-weight: bold;
+   font-size: 3rem;
+   line-height: 1.5;
+  }
+
+  .section-heading {
+    font-size: 3rem;
+    line-height: 1.5
+  }
+
+
+  /* Title Section */
+  #title {
+   background-color: #3C98F1;
+   text-align: left;
+  }
+  .tittle-image{
+   width: 60%;
+   transform: rotate(25deg);
+   position: absolute;
+   right: 30%;
+  }
+
+  #title .container-fluid {
+    padding: 3% 15% 7%;
+  }
+
+
+  /* Features Section */
+  #features {
+   background-color: white;
+   position: relative;
+   z-index: 1;
+  }
+
+  /* Navigation Bar */
+  .navbar {
+   padding: 0 0 4.5rem;
+  }
+
+  .navbar-brand {
+   font-size: 2.5rem;
+  }
+
+  .nav-item {
+   padding: 0 18px;
+   font-size: 1.5rem;
+  }
+
+  /* Download Buttons */
+
+  .download-button {
+   margin: 5% 3% 5% 0;
+  }
+
+  /* Font awesome icons */
+  .icon {
+   font-size: 5.5rem;
+   padding-bottom: 20px;
+   color: #3C98F1;
+  }
+
+  .icon:hover {
+   color: #ff4c68;
+  }
+
+
+  /* Features  */
+  .inner {
+    margin-bottom: 100px;
+  }
+
+  .feature-title {
+    font-size: 1.5rem;
+  }
+
+  /* Testimonials section */
+
+  #press {
+    padding-bottom: 3%;
+  }
+
+  .press-logo {
+   width: 15%;
+   margin: 20px 20px 50px;
+  }
+
+  .testimonial-text {
+   font-size: 3rem;
+
+  }
+  /* Pricing Section */
+
+  #pricing {
+  padding: 100px;
+  }
+
+  .pricing-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  .pricing-column {
+  padding: 3% 2%;
+  }
+
+  /* Media Query's */
+  @media(max-width: 1028px) {
+
+    #title {
+      text-align: center;
+    }
+
+    .tittle-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+
+  /* Footer */
+  .social-icon {
+    margin: 20px 10px;
+  }
